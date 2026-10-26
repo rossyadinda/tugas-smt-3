@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling untuk penampung kartu (Grid) */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 15px;
+}
+
+/* Styling khusus agar artikel berbentuk KOTAK */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;  /* Garis pinggir kotak */
+    border-radius: 8px;         /* Sudut melengkung */
+    padding: 15px;              /* Jarak tulisan dari garis kotak */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Bayangan lembut */
+}
